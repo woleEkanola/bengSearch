@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"> </script>
+    <script>
+         tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#887E7E',
+              red: '#FF0000',
+              grey:'#dddddd',
+              white: '#ffffff',
+              green: '#00f400',
+              slate:'#666666',
+              blue:'blue',
+              white:'#f5f5f5',
+              pink:'#ffd1dc',
+            
+              
+            }
+          }
+        }
+      }
+    </script>
+    <title>home page</title>
+
+</head>
+<body class="bg-grey">
+ 
+      <div class="bg-white  h-screen w-[90%] mx-auto ">
+<!-- popup -->
+        <div class=" mx-[25%] hidden ">
+        <h1 class="bg-green w-[500px] h-[60px] pt-[25px] pl-[9px] ">Please wait while your app is configured for offline use </h1>
+        
+    </div>
+       
+    <div >
+    <img src="img/home!!!.png" alt="" class="w-[20px] ml-[3%] cursor-pointer ">  
+         <img src="img/network bar.png" alt="" class="w-[25px] float-right mr-[5%] cursor-pointer ">
+         <h1 class="float-right mr-[3%] text-[13px] "> Femi Jay  </h1>
+         <img src="img/contact.png" alt="" class="w-[20px] float-right mr-[2%] cursor-pointer " >
+    
+   <!--popup  -->
+         <div id="popup" class="bg-grey border border-2 border-grey  cursor-pointer h-[63px] w-[110px]  mt-5 float-right hidden">
+      <ul class="text-xs text-justify pl-2 text-red">
+        <li> <a href="index.html"> Sign Out </a></li>                  
+       <li>View My Profile</li>                  
+        <li> Contact Support</li>
+      </ul>
+         </div>
+    </div>
+  
+  <form action="" >
+    <div >
+       <input type="text" class="  bg-pink  rounded-full  w-[650px] h-[50px]  ml-[23%] mt-[15%] pb-[5px] border border-1-slate my-3 placeholder-grey text-1xl"   >
+      </div>
+
+<!-- popup -->
+<div class="bg-pink flex-col border border-1 border-grey shadow-2xl pl-10 h-[100px] w-[500px] mt-0 pt-3 mx-auto ">
+ <p class="text-xs cursor-pointer"> <a href="page.html"> interesting search topic... <br> How to find the best search Topic... <br> Another relater article to the search Topic... <br> see more... </a></p>
+
+</div>
+  <div class="border border-2 bg-#f5f5f5 w-[30%] h-[37px] mt-[120px] ml-[40%] pl-5 pt-2  ">
+       <h1 class="text-1xl">fit to screen </h1>
+
+    <!-- popup -->
+    <div id="popup"  class="bg-white  text-slate border border-2 border-grey pl-10 mt-5 h-[150px] w-[300px] pt-4 hidden" >      
+    <form action="" >
+      <input type="checkbox" class="cursor-pointer ">
+      <label for=""> Always show link area</label> <br>
+   
+      <input type="checkbox" class="cursor-pointer">
+      <label for="">Show llink area on mouse hover </label> <br>
+   
+      <input type="checkbox" class="cursor-pointer">
+      <label for=""> Show content outside artboard</label> <br>
+   
+      <input type="checkbox" class="cursor-pointer">
+      <label for=""> Show note makers</label> <br>
+   
+      <input type="checkbox" class="cursor-pointer">
+      <label for=""> Auto hide the bar</label> <br>
+    </form>
+    </div>
+ </div>
+
+      
+    
+  
+</div>
+  </body>
+
+</html> 
